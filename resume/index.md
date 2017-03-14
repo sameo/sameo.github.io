@@ -6,7 +6,7 @@ title: Samuel Ortiz resume
 Principal Software Engineer
 
 <div id="webaddress">
-<a href="samuel@sortiz.org">samuel@sortiz.org</a>
+<a href="mailto:samuel@sortiz.org">samuel@sortiz.org</a>
 | +33-676-422-775<br>
 34820 Teyran, France
 </div>
