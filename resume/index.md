@@ -49,7 +49,7 @@ Implemented Evans Peak 802.11 Linux kernel upstream driver.
 Co-maintained and supported the iwlwifi driver.
 
 
-
+<br><br>
 `2008-2009`
 ___OpenedHand, Senior Linux Kernel Engineer___, Logras (France)
 
@@ -58,8 +58,9 @@ Maintained various customer Linux kernels.
 Implemented the OpenMoko ath6kl and the Nokia N900 wl1251
 802.11 kernel drivers.
 
-Maintained and supported several Poky (a.k.a. Yocto) overlays.
+Maintained and supported several [Yocto](https://www.yoctoproject.org/) overlays.
 
+<br><br>
 `2007-2008`
 ___Olivetti Engineering, Linux Consultant___, Yverdon (Switzerland)
 
@@ -68,6 +69,7 @@ Ported the Linux 2.6 kernel to Faraday SoCs.
 Designed and implemented a framework for supporting USB composite
 devices under Linux 2.4
 
+<br><br>
 `2004-2007`
 ___Nokia, Linux Kernel Engineer___, Helsinki (Finland)
 
