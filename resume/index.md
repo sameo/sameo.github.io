@@ -6,8 +6,8 @@ title: Samuel Ortiz resume
 Principal Software Engineer
 
 <div id="webaddress">
-<a href="mailto:samuel@sortiz.org">samuel@sortiz.org</a>
-| +33-676-422-775<br>
+<a href="mailto:samuel.e.ortiz@protonmail.com">samuel.e.ortiz@protonmail.com</a><br>
++33-676-422-775<br>
 34820 Teyran, France
 </div>
 
@@ -16,37 +16,28 @@ Principal Software Engineer
 `2009-Now`
 __Intel, Principal Software Engineer__, Montpellier (France)
 
-Co-architected [Intel Clear Containers](https://clearlinux.org/features/intel%C2%AE-clear-containers/)
-for providing a secure Docker container runtime based on Intel
-VT hardware virtualization.
+Architected and implemented [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
+* *A modern, [rust-vmm](https://github.com/rust-vmm) based VMM targeted at running cloud workloads exclusively.*
 
-Co-architected and implemented [Ciao](https://github.com/01org/ciao/),
-an open source cloud orchestration engine designed to address the
-current limitations in current cloud OS projects like e.g. OpenStack.
+Co-architected and implemented [Kata Containers](https://kata-containers.io/)
+* *Kata Containers is a secure container runtime, based on hardware virtualization (e.g. Intel VT), that seamlessly plugs into the cloud native software ecosystem.*
 
-Co-architected [One Android](https://androiddev.intel.com/), a
-common Android framework and infrastructure for all Android
-projects at Intel.
-Lead the SoFIA LTE platform enablement and integration, together
-with the iCDG transition to One Android.
+Architected and implemented [Ciao](https://github.com/ciao-project/ciao/)
+* *An open source cloud orchestration engine designed to address the current limitations in current cloud orchestsration projects like e.g. OpenStack.*
 
-Co-architected the Intel Reference Device for Android (IRDA)
-software stack.
-The IRDA architecture allows to build one single binary image
-for all Android x86 SKUs that are part of the IRDA program,
-as commonly defined by Intel and Google.
+Co-architected [One Android](https://androiddev.intel.com/)
+* *One Android provides a common Android framework and infrastructure for all Android projects at Intel.*
 
-Architected and implemented the [Linux upstream NFC subsystem](https://01.org/linux-nfc/),
-from kernel to user space. This is now the Yocto and ChromeOS NFC
-stack.
+Co-architected the Intel Reference Device for Android (IRDA) software stack.
+* *The IRDA architecture allows to build one single binary image for all Android x86 SKUs that are part of the IRDA program, as commonly defined by Intel and Google.*
 
-Co-architected and maintained [ConnMan](https://01.org/connman/),
-an open source connection manager deployed on MeeGo, Tizen, Yocto
-and indirectly ChromeOS.
+Architected and implemented the [Linux upstream NFC subsystem](https://www.kernel.org/doc/html/latest/networking/nfc.html)
+* *From kernel to user space. This is now the Yocto and ChromeOS NFC stack.*
 
-Implemented Evans Peak 802.11 Linux kernel upstream driver.
+Co-architected and maintained [ConnMan](https://01.org/connman/)
+* *ConnMan is an open source connection manager deployed on MeeGo, Tizen, Yocto and indirectly ChromeOS.*
 
-Co-maintained and supported the iwlwifi driver.
+Co-maintained and supported the Intel *iwlwifi* (802.11) driver.
 
 
 <br><br>
@@ -55,8 +46,7 @@ ___OpenedHand, Senior Linux Kernel Engineer___, Logras (France)
 
 Maintained various customer Linux kernels.
 
-Implemented the OpenMoko ath6kl and the Nokia N900 wl1251
-802.11 kernel drivers.
+Implemented the OpenMoko ath6kl and the Nokia N900 wl1251 802.11 kernel drivers.
 
 Maintained and supported several [Yocto](https://www.yoctoproject.org/) overlays.
 
@@ -66,8 +56,7 @@ ___Olivetti Engineering, Linux Consultant___, Yverdon (Switzerland)
 
 Ported the Linux 2.6 kernel to Faraday SoCs.
 
-Designed and implemented a framework for supporting USB composite
-devices under Linux 2.4
+Designed and implemented a framework for supporting USB composite devices under Linux 2.4
 
 <br><br>
 `2004-2007`
@@ -75,8 +64,7 @@ ___Nokia, Linux Kernel Engineer___, Helsinki (Finland)
 
 Lead the Nokia 770 and N800 Internet Tablets 802.11 enabling effort.
 
-Implemented SPI and McBSP kernel driver for the TI OMAP1 and OMAP2
-SoCs.
+Implemented the SPI and McBSP kernel drivers for the TI OMAP1 and OMAP2 SoCs.
 
 ## Education
 
@@ -95,12 +83,12 @@ ___French, Spanish___  Native languages
 
 ___Open Source projects___ NFC, MFD and IrDA Linux kernel maintainer
 
-___Beekeeping, Ultra Light Aircraft Pilot___
+___Running, Beekeeping, Ultra Light Aircraft piloting___
 
 
 
 <!-- ### Footer
 
-Last updated: March 2017 -->
+Last updated: January 2021 -->
 
 
