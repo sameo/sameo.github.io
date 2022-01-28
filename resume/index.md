@@ -13,7 +13,15 @@ Principal Software Engineer
 
 
 ## Work Experience
-`2009-Now`
+`2021-Now`
+__Apple, Software Engineer__, Montpellier (France)
+
+Architected and lead [Confidential Containers](https://github.com/confidential-containers/)
+* *The Confidential Containers project, based off Kata Containers, aims at seamlessly running unmodified cloud native workloads through confidential computing hardware implementations.*
+
+Maintained [Kata Containers](https://kata-containers.io/)
+
+`2009-2021`
 __Intel, Principal Software Engineer__, Montpellier (France)
 
 Architected and implemented [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
