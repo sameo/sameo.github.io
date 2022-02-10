@@ -19,7 +19,7 @@ __Apple, Software Engineer__, Montpellier (France)
 Architected and lead [Confidential Containers](https://github.com/confidential-containers/)
 * *The Confidential Containers project, based off Kata Containers, aims at seamlessly running unmodified cloud native workloads through confidential computing hardware implementations.*
 
-Maintained [Kata Containers](https://kata-containers.io/)
+Maintained [Kata Containers](https://katacontainers.io/)
 
 `2009-2021`
 __Intel, Principal Software Engineer__, Montpellier (France)
@@ -27,13 +27,13 @@ __Intel, Principal Software Engineer__, Montpellier (France)
 Architected and implemented [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
 * *A modern, [rust-vmm](https://github.com/rust-vmm) based VMM targeted at running cloud workloads exclusively.*
 
-Co-architected and implemented [Kata Containers](https://kata-containers.io/)
+Co-architected and implemented [Kata Containers](https://katacontainers.io/)
 * *Kata Containers is a secure container runtime, based on hardware virtualization (e.g. Intel VT), that seamlessly plugs into the cloud native software ecosystem.*
 
 Architected and implemented [Ciao](https://github.com/ciao-project/ciao/)
 * *An open source cloud orchestration engine designed to address the current limitations in current cloud orchestsration projects like e.g. OpenStack.*
 
-Co-architected [One Android](https://androiddev.intel.com/)
+Co-architected [One Android](https://www.intel.com/content/www/us/en/embedded/software/android/overview.html)
 * *One Android provides a common Android framework and infrastructure for all Android projects at Intel.*
 
 Co-architected the Intel Reference Device for Android (IRDA) software stack.
