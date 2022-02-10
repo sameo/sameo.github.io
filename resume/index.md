@@ -97,6 +97,6 @@ ___Running, Beekeeping, Ultra Light Aircraft piloting___
 
 <!-- ### Footer
 
-Last updated: January 2021 -->
+Last updated: January 2022 -->
 
 
