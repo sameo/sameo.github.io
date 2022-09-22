@@ -13,7 +13,10 @@ Principal Software Engineer
 
 
 ## Work Experience
-`2021-Now`
+`2022-Now`
+__Rivos, Principal Software Engineer__, Montpellier (France)
+
+`2021-2022`
 __Apple, Software Engineer__, Montpellier (France)
 
 Architected and lead [Confidential Containers](https://github.com/confidential-containers/)
@@ -97,6 +100,4 @@ ___Running, Beekeeping, Ultra Light Aircraft piloting___
 
 <!-- ### Footer
 
-Last updated: January 2022 -->
-
-
+Last updated: September 2022 -->
