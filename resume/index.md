@@ -14,51 +14,66 @@ Principal Software Engineer
 
 ## Work Experience
 `2026-Now`
-__Meta, Software Engineer__, Montpellier (France)
+___Meta, Software Engineer___, Montpellier (France)
 
+Focusing on SW architecture for next-generation infrastructure systems.
+
+<br><br>
 `2022-2026`
-__Rivos, Principal Software Engineer__, Montpellier (France)
+___Rivos, Principal Software Engineer___, Montpellier (France)
 
-Co-architected the platform security and developed the Root of Trust (RoT)
-ROM for Rivos' first-generation server SoC
-* *Established the early-stage secure boot stack, immutable baseline security,
-  and the SoC security provisioning framework.*
+Led the Root of Trust (RoT) ROM development for Rivos' first-generation SoC
+* *Established the securely patchable, OpenTitan-based immutable security
+  baseline for this server-class SoC.*
+
+Co-architected and implemented Rivos' secure provisioning framework
+* *Engineered to defend the provisioning flow against supply chain attacks
+  while enabling multi-ownership provisioning capabilities.*
 
 Architected and led the [CoVE-IO](https://github.com/riscv-non-isa/riscv-ap-tee-io)
 RISC-V Technical Group
-* *CoVE-IO is the RISC-V specification for secure I/O virtualization and
-  direct device assignment into confidential virtual machines.*
+* *CoVE-IO is the RISC-V specification for trusted I/O virtualization and
+  secure direct device assignment into confidential virtual machines.*
 
 Contributed to the [CoVE](https://github.com/riscv-non-isa/riscv-ap-tee)
 RISC-V Technical Group
 * *CoVE is the RISC-V confidential computing specification and framework.*
-* *Defined and specified the CoVE Attestation framework.*
+* *Defined and specified the CoVE Attestation Framework.*
 
+<br><br>
 `2021-2022`
-__Apple, Software Engineer__, Montpellier (France)
+___Apple, Software Engineer___, Montpellier (France)
 
 Architected and led [Confidential Containers](https://github.com/confidential-containers/)
-* *The Confidential Containers project, based off Kata Containers, aims at
-  seamlessly running unmodified cloud native workloads through confidential
-  computing hardware implementations.*
+* *The Confidential Containers project, now on its way to becoming a CNCF
+  incubating project, aims at seamlessly running unmodified cloud native
+  workloads through confidential computing hardware implementations.*
 
 Maintained [Kata Containers](https://katacontainers.io/)
 
-`2009-2021`
-__Intel, Principal Software Engineer__, Montpellier (France)
+<br><br>
+`2016-2021`
+___Intel, Principal Software Engineer___, Montpellier (France)
 
 Architected and implemented [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
-* *A modern, [rust-vmm](https://github.com/rust-vmm) based VMM targeted at
-  running cloud workloads exclusively.*
+* *A modern, high-performance Virtual Machine Monitor (VMM) written in Rust.*
+* *Stripped away legacy PC bloat to deliver a hyper-optimized virtualization
+  stack for cloud workloads, establishing it as a core infrastructure
+  component under the Linux Foundation.*
 
 Co-architected and implemented [Kata Containers](https://katacontainers.io/)
-* *Kata Containers is a secure container runtime, based on hardware
-  virtualization (e.g. Intel VT), that seamlessly plugs into the cloud
-  native software ecosystem.*
+* *Kata Containers is a secure, hardware virtualization based container
+  runtime that transparently integrates with the cloud-native ecosystem.*
+* *It is now deployed by several major hyperscalers, both as a public
+  offering and as an internal infrastructure keystone.*
 
 Architected and implemented [Ciao](https://github.com/ciao-project/ciao/)
 * *An open source cloud orchestration engine designed to address limitations
   in other cloud orchestration projects such as OpenStack.*
+
+<br><br>
+`2009-2016`
+___Intel, Senior Software Engineer___, Montpellier (France)
 
 Co-architected [One Android](https://www.intel.com/content/www/us/en/embedded/software/android/overview.html)
 * *One Android provides a common Android framework and infrastructure for
@@ -74,7 +89,7 @@ Architected and implemented the [Linux upstream NFC subsystem](https://www.kerne
 
 Co-architected and maintained [ConnMan](https://01.org/connman/)
 * *ConnMan is an open source connection manager deployed on MeeGo, Tizen,
-  Yocto and indirectly ChromeOS.*
+  Yocto, and indirectly ChromeOS.*
 
 Co-maintained and supported the Intel *iwlwifi* (802.11) driver.
 
@@ -111,7 +126,7 @@ Implemented the SPI and McBSP kernel drivers for the TI OMAP1 and OMAP2 SoCs.
 ## Education
 
 `2002`
-__Ecole des Mines de Paris__
+___Ecole des Mines de Paris___
 
 MS Computer Science and Automation with Highest Honor
 
