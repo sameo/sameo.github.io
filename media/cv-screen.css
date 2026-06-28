@@ -51,6 +51,11 @@ table {
 
 
 
+#main {
+	max-width: 80ch;
+	margin: 0 auto;
+}
+
 body {
 	font: normal normal 400;
 	font-size: 80%;
