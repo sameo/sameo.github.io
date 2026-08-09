@@ -10,7 +10,8 @@
 :root {
   --primary: #1F2937; /* Modern dark gray instead of harsh pure black */
   --secondary: #4B5563;
-  --accent: #2563EB; /* Professional modern blue */
+  --accent: #25DB63; /* Professional modern green */
+  --link: #2563EB; /* Professional modern green */
   --bg: #FFFFFF;
   --border: #E5E7EB;
   --light-bg: #F3F4F6;
@@ -59,7 +60,7 @@ body {
 }
 
 .contact-info a {
-  color: var(--accent);
+  color: var(--link);
   text-decoration: none;
   transition: color 0.15s ease;
 }
@@ -200,9 +201,21 @@ li strong {
   color: var(--secondary);
 }
 
-/* Interests & Open Source Roles */
-.skills-summary {
+/* Skill, Interests & Open Source Roles */
+.skills-section {
   margin-bottom: 2rem;
+}
+
+.skills-block h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.skills-block p {
+    font-size: 0.95rem;
+    color: var(--secondary);
 }
 
 .interests-section {

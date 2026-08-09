@@ -25,7 +25,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Montpellier, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Software Engineer <span class="company">— Meta</span></h3>
+    <h3 class="job-title">Software Engineer <span class="company">@Meta</span></h3>
     <p class="job-description">Focusing on SW architecture for next-generation infrastructure systems.</p>
   </div>
 </div>
@@ -36,7 +36,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Montpellier, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Principal Software Engineer <span class="company">— Rivos</span></h3>
+    <h3 class="job-title">Principal Software Engineer <span class="company">@Rivos</span></h3>
     <ul>
       <li>
         <strong>Led the Root of Trust (RoT) ROM development for Rivos' first-generation SoC</strong>
@@ -64,7 +64,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Montpellier, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Software Engineer <span class="company">— Apple</span></h3>
+    <h3 class="job-title">Software Engineer <span class="company">@Apple</span></h3>
     <ul>
       <li>
         <strong>Architected and led <a href="https://github.com/confidential-containers/">Confidential Containers</a></strong>
@@ -83,7 +83,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Montpellier, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Principal Software Engineer <span class="company">— Intel</span></h3>
+    <h3 class="job-title">Principal Software Engineer <span class="company">@Intel</span></h3>
     <ul>
       <li>
         <strong>Architected and implemented <a href="https://github.com/cloud-hypervisor/cloud-hypervisor">Cloud Hypervisor</a></strong>
@@ -107,7 +107,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Montpellier, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Senior Software Engineer <span class="company">— Intel</span></h3>
+    <h3 class="job-title">Senior Software Engineer <span class="company">@Intel</span></h3>
     <ul>
       <li>
         <strong>Co-architected <a href="https://www.intel.com/content/www/us/en/embedded/software/android/overview.html">One Android</a></strong>
@@ -138,7 +138,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Logras, France</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Senior Linux Kernel Engineer <span class="company">— OpenedHand</span></h3>
+    <h3 class="job-title">Senior Linux Kernel Engineer <span class="company">@OpenedHand</span></h3>
     <ul>
       <li>
         <strong>Maintained various customer Linux kernels</strong>
@@ -159,7 +159,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Yverdon, Switzerland</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Linux Consultant <span class="company">— Olivetti Engineering</span></h3>
+    <h3 class="job-title">Linux Consultant <span class="company">@Olivetti Engineering</span></h3>
     <ul>
       <li>
         <strong>Ported the Linux 2.6 kernel to Faraday SoCs</strong>
@@ -177,7 +177,7 @@ title: Samuel Ortiz Resume
     <div class="job-location">Helsinki, Finland</div>
   </div>
   <div class="job-content">
-    <h3 class="job-title">Linux Kernel Engineer <span class="company">— Nokia</span></h3>
+    <h3 class="job-title">Linux Kernel Engineer <span class="company">@Nokia</span></h3>
     <ul>
       <li>
         <strong>Led the Nokia 770 and N800 Internet Tablets 802.11 enabling effort</strong>
@@ -197,13 +197,25 @@ title: Samuel Ortiz Resume
     <h3 class="education-school">Ecole des Mines de Paris</h3>
     <p class="education-degree">MS Computer Science and Automation with Highest Honor</p>
   </div>
+
+  <div class="education-dates">1998</div>
+  <div class="education-details">
+    <h3 class="education-school">Université Lyon 1</h3>
+    <p class="education-degree">BS Mathematics with Highest Honor</p>
+  </div>
 </div>
 
 ## Skills
 
-<div class="skills-summary">
-  <p><strong>Domains & Technologies:</strong> Confidential Computing, RISC-V, Hardware Security (RoT), Linux Kernel Subsystems, Rust, Virtualization (KVM/Cloud Hypervisor), Container Isolation (Kata Containers).</p>
-  <p><strong>Programming Languages:</strong>Rust, C/C++, Go, Python.</p>
+<div class="skills-section">
+  <div class="skills-block">
+    <h4>Domains & Technologies</h4>
+    <p> Confidential Computing, RISC-V, Hardware Security (RoT), Linux Kernel Subsystems, Rust, Virtualization (KVM/Cloud Hypervisor), Container Isolation (Kata Containers).</p>
+  </div>
+  <div class="skills-block">
+    <h4>Programming Languages</h4>
+    <p>Rust, C/C++, Go, Python.</p>
+  </div>
 </div>
 
 
