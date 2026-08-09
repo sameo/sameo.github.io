@@ -1,195 +1,280 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Modern and Clean CV Stylesheet */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* end of reset */
-
-
+:root {
+  --primary: #1F2937; /* Modern dark gray instead of harsh pure black */
+  --secondary: #4B5563;
+  --accent: #2563EB; /* Professional modern blue */
+  --bg: #FFFFFF;
+  --border: #E5E7EB;
+  --light-bg: #F3F4F6;
+}
 
 body {
-	font: normal normal 400;
-	font-size: 100%;
-	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir,Verdana,sans-serif;
-	margin-top: 1em;
-	margin-left: 1em;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--primary);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
 }
 
-p {
-	position: relative;
-	left: 25%;
-	margin-bottom: 0.7em;
-	margin-right: 0;
-	width: 55%;
+/* Header & Contact Info */
+.resume-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 1.5rem;
 }
 
-code {
-	font: normal normal;
-	font-size: 90%;
-	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	color: #aaa;
+.resume-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: #111827;
+  margin-bottom: 0.25rem;
 }
 
-p code {
-	position: absolute;
-	text-align: right;
-	right: -20%;
+.resume-header .subtitle {
+  font-size: 1.25rem;
+  color: var(--secondary);
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 0.95rem;
+  color: var(--secondary);
+}
 
+.contact-info a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-info .divider {
+  color: var(--border);
+  font-weight: 300;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+/* Job & Education Items (Timeline / Grid Alignment) */
+.job-item, .education-item {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.job-sidebar, .education-dates {
+  font-size: 0.9rem;
+  color: var(--secondary);
+}
+
+.job-dates, .education-dates {
+  font-weight: 700;
+  color: #111827;
+}
+
+.job-location {
+  font-size: 0.85rem;
+  color: #6B7280;
+  margin-top: 0.25rem;
+}
+
+.job-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.job-title .company {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.job-description {
+  font-size: 0.975rem;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+}
+
+/* Bullet list styling */
 ul {
-	position: relative;
-	left: 25%;
-	width: 75%;
-	margin-bottom: 1.5em;
-	margin-top: -0.5em;
+  list-style: none;
+  padding-left: 0;
 }
-
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
 
 li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-	/*color: #777;*/
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.975rem;
+  color: var(--primary);
 }
 
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
 }
 
-h1,h2,h3,h4 {
-	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
+li strong {
+  font-weight: 600;
+  color: var(--primary);
 }
 
-h1 {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1em;
-	position: relative;
-	left: 25%;
+.bullet-desc {
+  font-size: 0.925rem;
+  color: var(--secondary);
+  margin-top: 0.15rem;
+  line-height: 1.5;
 }
 
-h1+p {
-	/*subtitle*/
-	font-style: italic;
-	font-size: 110%;
+/* Education Specifics */
+.education-school {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.25rem;
 }
 
-h2 {
-	font-size: 1.1em;
-	color: #bc412b;
-	margin-top: 3em;
-	position: relative;
-	top: 1.4em;
-	text-align: right;
-	width: 20%;
+.education-degree {
+  font-size: 0.975rem;
+  color: var(--secondary);
 }
 
-h3 {
-	font-size: 1em;
-	line-height: 2em;
-	position: relative;
-	top: 1.7em;
-	text-align: right;
-	width: 20%;
+/* Languages Styling */
+.languages-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
+.language-item {
+  background-color: var(--light-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border);
+}
+
+.language-name {
+  font-weight: 700;
+  color: var(--primary);
+  margin-right: 0.5rem;
+}
+
+.language-level {
+  color: var(--secondary);
+}
+
+/* Interests & Open Source Roles */
+.interests-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.interest-block h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.interest-block p {
+  font-size: 0.95rem;
+  color: var(--secondary);
+}
+
+.interests-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: var(--light-bg);
+  color: var(--secondary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid var(--border);
+}
+
+/* Link customization */
 a {
-	color: inherit;
-	/*text-decoration:none*/
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 a:hover {
-	color:#39f
+  border-bottom-color: var(--accent);
 }
 
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #bc412b;
-	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 100%;
+/* Responsive Styles */
+@media (max-width: 640px) {
+  body {
+    padding: 1.5rem 1rem;
+  }
+  
+  .job-item, .education-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .job-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed var(--border);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .job-location {
+    margin-top: 0;
+  }
+  
+  .interests-section {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }
-
-#webaddress a {
-	text-decoration: none;
-}
-
-em {
-	/* font-weight: bold; */
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
-}
-
-#address {
-	display: none;
-}
-
-
-
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/
