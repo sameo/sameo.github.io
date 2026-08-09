@@ -160,6 +160,11 @@
   }
 
   /* Interests */
+  .skills-summary {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
   .interests-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
