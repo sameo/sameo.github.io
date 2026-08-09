@@ -200,9 +200,21 @@ li strong {
   color: var(--secondary);
 }
 
-/* Interests & Open Source Roles */
-.skills-summary {
+/* Skill, Interests & Open Source Roles */
+.skills-section {
   margin-bottom: 2rem;
+}
+
+.skills-block h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.skills-block p {
+    font-size: 0.95rem;
+    color: var(--secondary);
 }
 
 .interests-section {
