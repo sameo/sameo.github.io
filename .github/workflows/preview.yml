@@ -1,0 +1,28 @@
+name: Deploy Branch Preview
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+
+      # If you use a build step (Hugo, Jekyll, React, etc.), run it here:
+      # - name: Build Site
+      #   run: npm run build
+
+      - name: Deploy Preview Subfolder to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ # or ./dist / ./public
+          destination_dir: previews/${{ github.ref_name }}
