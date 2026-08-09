@@ -10,8 +10,8 @@
 :root {
   --primary: #1F2937; /* Modern dark gray instead of harsh pure black */
   --secondary: #4B5563;
-  --accent: #25DB63; /* Professional modern green */
-  --link: #2563EB; /* Professional modern green */
+  --accent: #25BB63; /* Professional modern green */
+  --link: #2563EB; /* Professional modern blue */
   --bg: #FFFFFF;
   --border: #E5E7EB;
   --light-bg: #F3F4F6;

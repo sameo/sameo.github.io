@@ -40,7 +40,7 @@ title: Samuel Ortiz Resume
     <ul>
       <li>
         <strong>Led Root of Trust (RoT) ROM development</strong>
-        <p class="bullet-desc">Architected and implemented an OpenTitan-based immutable ROM security baseline with secure patching and die-to-die synchronization capabilities for a multi-die RISC-V server SoC.</p>
+        <p class="bullet-desc">Architected and implemented an OpenTitan-based immutable ROM security baseline, with secure patching and die-to-die synchronization capabilities, for a multi-die RISC-V server SoC.</p>
       </li>
       <li>
         <strong>Co-architected and implemented Rivos' secure provisioning framework</strong>
@@ -87,7 +87,7 @@ title: Samuel Ortiz Resume
     <ul>
       <li>
         <strong>Architected and implemented <a href="https://github.com/cloud-hypervisor/cloud-hypervisor">Cloud Hypervisor</a></strong>
-        <p class="bullet-desc">Designed a high-performance Rust VMM focusing on cloud-native workloads, security isolation, and direct device passthrough, removing legacy x86 dependencies and establishing it as a core infrastructure component under the Linux Foundation.
+        <p class="bullet-desc">Designed a high-performance Rust VMM focusing on cloud-native workloads, security isolation, and direct device passthrough, removing legacy x86 dependencies and establishing it as a core infrastructure component under the Linux Foundation.</p>
       </li>
       <li>
         <strong>Co-architected and implemented <a href="https://katacontainers.io/">Kata Containers</a></strong>
