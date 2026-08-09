@@ -39,8 +39,8 @@ title: Samuel Ortiz Resume
     <h3 class="job-title">Principal Software Engineer <span class="company">@Rivos</span></h3>
     <ul>
       <li>
-        <strong>Led the Root of Trust (RoT) ROM development for Rivos' first-generation SoC</strong>
-        <p class="bullet-desc">Established the securely patchable, OpenTitan-based immutable security baseline for Rivos' RISC-V server-class SoC.</p>
+        <strong>Led Root of Trust (RoT) ROM development</strong>
+        <p class="bullet-desc">Architected and implemented an OpenTitan-based immutable ROM security baseline, with secure patching and die-to-die synchronization capabilities, for a multi-die RISC-V server SoC.</p>
       </li>
       <li>
         <strong>Co-architected and implemented Rivos' secure provisioning framework</strong>
@@ -48,7 +48,7 @@ title: Samuel Ortiz Resume
       </li>
       <li>
         <strong>Architected and led the <a href="https://github.com/riscv-non-isa/riscv-ap-tee-io">CoVE-IO</a> RISC-V Technical Group</strong>
-        <p class="bullet-desc">CoVE-IO is the RISC-V specification for trusted I/O virtualization and secure direct device assignment into confidential virtual machines.</p>
+        <p class="bullet-desc">Standardized trusted I/O virtualization, PCIe IDE/TDISP integration, and direct device assignment for RISC-V confidential VMs..</p>
       </li>
       <li>
         <strong>Contributed to the <a href="https://github.com/riscv-non-isa/riscv-ap-tee">CoVE</a> RISC-V Technical Group</strong>
@@ -87,7 +87,7 @@ title: Samuel Ortiz Resume
     <ul>
       <li>
         <strong>Architected and implemented <a href="https://github.com/cloud-hypervisor/cloud-hypervisor">Cloud Hypervisor</a></strong>
-        <p class="bullet-desc">A modern, high-performance Virtual Machine Monitor (VMM) written in Rust. Stripped away legacy PC bloat to deliver a hyper-optimized virtualization stack for cloud workloads, establishing it as a core infrastructure component under the Linux Foundation.</p>
+        <p class="bullet-desc">Designed a high-performance Rust VMM focusing on cloud-native workloads, security isolation, and direct device passthrough, removing legacy x86 dependencies and establishing it as a core infrastructure component under the Linux Foundation.</p>
       </li>
       <li>
         <strong>Co-architected and implemented <a href="https://katacontainers.io/">Kata Containers</a></strong>
@@ -210,8 +210,11 @@ title: Samuel Ortiz Resume
 <div class="skills-section">
   <div class="skills-block">
     <h4>Domains & Technologies</h4>
-    <p> Confidential Computing, RISC-V, Hardware Security (RoT), Linux Kernel Subsystems, Rust, Virtualization (KVM/Cloud Hypervisor), Container Isolation (Kata Containers).</p>
+    <p> Confidential Computing, RISC-V, Hardware Security (RoT), Linux Kernel Subsystems, Rust, Virtualization (KVM/Cloud Hypervisor), Container Orchetstration and Isolation (Kata Containers, Kubernetes).</p>
   </div>
+</div>
+
+<div class="skills-section">
   <div class="skills-block">
     <h4>Programming Languages</h4>
     <p>Rust, C/C++, Go, Python.</p>
