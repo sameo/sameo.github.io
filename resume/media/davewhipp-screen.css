@@ -201,6 +201,10 @@ li strong {
 }
 
 /* Interests & Open Source Roles */
+.skills-summary {
+  margin-bottom: 2rem;
+}
+
 .interests-section {
   display: grid;
   grid-template-columns: 1fr 1fr;

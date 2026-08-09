@@ -199,6 +199,14 @@ title: Samuel Ortiz Resume
   </div>
 </div>
 
+## Skills
+
+<div class="skills-summary">
+  <p><strong>Domains & Technologies:</strong> Confidential Computing, RISC-V, Hardware Security (RoT), Linux Kernel Subsystems, Rust, Virtualization (KVM/Cloud Hypervisor), Container Isolation (Kata Containers).</p>
+  <p><strong>Programming Languages:</strong>Rust, C/C++, Go, Python.</p>
+</div>
+
+
 ## Languages
 
 <div class="languages-section">
