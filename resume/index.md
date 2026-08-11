@@ -48,7 +48,7 @@ title: Samuel Ortiz Resume
       </li>
       <li>
         <strong>Architected and led the <a href="https://github.com/riscv-non-isa/riscv-ap-tee-io">CoVE-IO</a> RISC-V Technical Group</strong>
-        <p class="bullet-desc">Standardized trusted I/O virtualization, PCIe IDE/TDISP integration, and direct device assignment for RISC-V confidential VMs..</p>
+        <p class="bullet-desc">Standardized trusted I/O virtualization, PCIe IDE/TDISP integration, and direct device assignment for RISC-V confidential VMs.</p>
       </li>
       <li>
         <strong>Contributed to the <a href="https://github.com/riscv-non-isa/riscv-ap-tee">CoVE</a> RISC-V Technical Group</strong>
