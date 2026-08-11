@@ -72,6 +72,7 @@ title: Samuel Ortiz Resume
       </li>
       <li>
         <strong>Maintained <a href="https://katacontainers.io/">Kata Containers</a></strong>
+        <p class="bullet-desc">Maintained the upstream Kata Containers project, leading core runtime architecture, security hardening, and hypervisor backend integration.</p>
       </li>
     </ul>
   </div>
@@ -91,7 +92,7 @@ title: Samuel Ortiz Resume
       </li>
       <li>
         <strong>Co-architected and implemented <a href="https://katacontainers.io/">Kata Containers</a></strong>
-        <p class="bullet-desc">Kata Containers is a secure, hardware virtualization based container runtime that transparently integrates with the cloud-native ecosystem. It is now deployed by several major hyperscalers, both as a public offering and as an internal infrastructure keystone.</p>
+        <p class="bullet-desc">Co-created the open-source lightweight virtualization runtime (QEMU, Cloud Hypervisor) combining the security isolation of VMs with the speed and footprint of containers. Engineered seamless Kubernetes CRI and OCI integration, building a hardware-isolated container stack now deployed at scale by major cloud hyperscalers.</p>
       </li>
       <li>
         <strong>Architected and implemented <a href="https://github.com/ciao-project/ciao/">Ciao</a></strong>
@@ -118,7 +119,7 @@ title: Samuel Ortiz Resume
         <p class="bullet-desc">The IRDA architecture enables building a single binary image for all Android x86 SKUs that are part of the IRDA program, as commonly defined by Intel and Google.</p>
       </li>
       <li>
-        <strong>Architected and implemented the <a href="https://www.kernel.org/doc/html/latest/networking/nfc.html">Linux upstream NFC subsystem</a></strong>
+        <strong>Architected and implemented the <a href="https://www.kernel.org/doc/html/latest/networking/nfc.html">Linux kernel Near-Field Communication (NFC) subsystem</a></strong>
         <p class="bullet-desc">From kernel to user space. This is now the Yocto and ChromeOS NFC stack.</p>
       </li>
       <li>
