@@ -68,7 +68,7 @@ title: Samuel Ortiz Resume
     <ul>
       <li>
         <strong>Architected and led <a href="https://github.com/confidential-containers/">Confidential Containers</a></strong>
-        <p class="bullet-desc">The Confidential Containers project, now on its way to becoming a CNCF incubating project, aims at seamlessly running unmodified cloud native workloads through confidential computing hardware implementations.</p>
+        <p class="bullet-desc">Founded and spearheaded the CNCF project enabling unmodified Kubernetes workloads to run securely inside Confidential Virtual Machines (CVMs). Architected low-level remote attestation, container image encryption, and key management frameworks across TEE hardware extensions (Intel TDX, AMD SEV-SNP).</p>
       </li>
       <li>
         <strong>Maintained <a href="https://katacontainers.io/">Kata Containers</a></strong>
@@ -120,6 +120,12 @@ title: Samuel Ortiz Resume
       <li>
         <strong>Architected and implemented the <a href="https://www.kernel.org/doc/html/latest/networking/nfc.html">Linux upstream NFC subsystem</a></strong>
         <p class="bullet-desc">From kernel to user space. This is now the Yocto and ChromeOS NFC stack.</p>
+      </li>
+      <li>
+        <strong>Maintained the Linux kernel Multi-Function Device (MFD) subsystem</strong>
+      </li>
+      <li>
+        <strong>Maintained the Linux kernel Infrared (IrDA) subsystem</strong>
       </li>
       <li>
         <strong>Co-architected and maintained <a href="https://01.org/connman/">ConnMan</a></strong>
@@ -243,16 +249,8 @@ title: Samuel Ortiz Resume
 
 <div class="interests-section">
   <div class="interest-block">
-    <h4>Open Source Roles</h4>
-    <p>NFC, MFD and IrDA Linux kernel maintainer</p>
-  </div>
-  <div class="interest-block">
     <h4>Personal Interests</h4>
-    <div class="interests-tags">
-      <span class="tag">Trail Running</span>
-      <span class="tag">Cycling</span>
-      <span class="tag">Beekeeping</span>
-    </div>
+    <p>Trail Running, Cycling, Beekeeping</p>
   </div>
 </div>
 
