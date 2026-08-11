@@ -118,11 +118,14 @@ title: Samuel Ortiz Resume
         <p class="bullet-desc">The IRDA architecture enables building a single binary image for all Android x86 SKUs that are part of the IRDA program, as commonly defined by Intel and Google.</p>
       </li>
       <li>
-        <strong>Architected and implemented the <a href="https://www.kernel.org/doc/html/latest/networking/nfc.html">Linux kernel upstream NFC subsystem</a></strong>
+        <strong>Architected and implemented the <a href="https://www.kernel.org/doc/html/latest/networking/nfc.html">Linux upstream NFC subsystem</a></strong>
         <p class="bullet-desc">From kernel to user space. This is now the Yocto and ChromeOS NFC stack.</p>
       </li>
       <li>
-        <strong>Maintained the MFD (Multi-Function Device) and IrDA (Infrared) Linux kernel upstream subsystems</strong>
+        <strong>Maintained the Linux kernel Multi-Function Device (MFD) subsystem</strong>
+      </li>
+      <li>
+        <strong>Maintained the Linux kernel Infrared (IrDA) subsystem</strong>
       </li>
       <li>
         <strong>Co-architected and maintained <a href="https://01.org/connman/">ConnMan</a></strong>
@@ -247,7 +250,7 @@ title: Samuel Ortiz Resume
 <div class="interests-section">
   <div class="interest-block">
     <h4>Personal Interests</h4>
-    <p>Trail Running, Cycling, Beekeeping, Ultra-light Aircraft Flying</p>
+    <p>Trail Running, Cycling, Beekeeping</p>
   </div>
 </div>
 
