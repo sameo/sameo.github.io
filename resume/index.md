@@ -196,6 +196,23 @@ title: Samuel Ortiz Resume
   </div>
 </div>
 
+## Academic & Teaching Experience
+
+<div class="job-item">
+  <div class="job-sidebar">
+    <div class="job-dates">2022 – Present</div>
+    <div class="job-location">Montpellier, France</div>
+  </div>
+  <div class="job-content">
+    <h3 class="job-title">Lecturer <span class="company">@Polytech Montpellier</span></h3>
+    <ul>
+      <li>
+        <strong>Delivering lectures and practical lab modules on low-level systems programming, operating systems, and computer architecture for engineering students.</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+
 ## Education
 
 <div class="education-item">
