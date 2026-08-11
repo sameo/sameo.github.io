@@ -147,7 +147,7 @@ li::before {
   content: "•";
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: var(--secondary);
   font-weight: bold;
 }
 
@@ -255,14 +255,14 @@ li strong {
 
 /* Link customization */
 a {
-  color: var(--accent);
+  color: var(--link);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 a:hover {
-  border-bottom-color: var(--accent);
+  border-bottom-color: var(--link);
 }
 
 /* Responsive Styles */
